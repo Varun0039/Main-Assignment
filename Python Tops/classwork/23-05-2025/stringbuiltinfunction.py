@@ -1,0 +1,28 @@
+s="Python Programming"
+print(len(s))
+print(s.capitalize())
+print(s.center(30,"*"))
+print(s.casefold())
+print(s.count("p"))
+print(s.endswith("g"))
+print(s.find("p"))
+print(s.isalnum())
+print(s.isalpha())
+print(s.lower())
+print(s.swapcase())
+print(s.replace("P","a"))
+print(s.title())
+print(s.upper())
+
+n="Python is Popular Language"
+print(n[2:18:3])
+print(n[:23:4])
+print(n[4::5])
+print(n[::1])
+print(n[10:22:1])
+
+print(n[-22:-10:3])
+print(n[:-5:4])
+print(n[::-1])
+print(n[-20::5])
+print(n[-15:-2:2])
