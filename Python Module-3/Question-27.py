@@ -1,0 +1,6 @@
+t=(1,2,3,4)
+list1=list(t)
+list1.pop()
+list1.append(5)
+t=tuple(list1)
+print("Result:",t)
